@@ -16,14 +16,14 @@ int main() {
 	}
 	int c[2*n];
 	int i=0,j=0;int k=0;
-	while(i<=n || j<=n)
+	while(i<n || j<n)
 	{
 	    if(a[i]>=b[j])
 	    {
 	        c[k]=b[j];
 	        j++;k++;
 	    }
-	    else
+	    else 
 	    {
 	        c[k]=a[i];
 	        i++;k++;
